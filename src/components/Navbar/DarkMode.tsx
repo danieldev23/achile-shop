@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import DarktButton from "../../assets/dark-mode/dark-mode-button.png";
 import LightButton from "../../assets/dark-mode/light-mode-button.png";
 
