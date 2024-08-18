@@ -96,7 +96,7 @@ const Navbar = () => {
                 <div className="relative  group hidden sm:block">
                   <input type="text" placeholder="Seach"
                   className="search-bar bg-transparent"/>
-                  <IoMdSearch className="text-xl text-gray-600 duration-200 dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3"/>
+                  <IoMdSearch className="text-xl text-gray-600 duration-200 dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 cursor-pointer"/>
                 </div>
                 
             {/* Oder button section  */}
