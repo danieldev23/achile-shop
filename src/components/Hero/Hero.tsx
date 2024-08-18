@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import Headphone from "../../assets/slider/headphone.png";
 import Watch from "../../assets/slider/watch.png";

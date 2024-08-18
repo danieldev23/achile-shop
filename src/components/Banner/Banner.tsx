@@ -1,4 +1,3 @@
-import React from 'react'
 import Headphone from "../../assets/slider/headphone.png";
 
 

@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../Shared/Button";
 import Vr from "../../assets/category/vr.png";
 import Gaming from "../../assets/category/gaming.png";
@@ -16,9 +15,7 @@ const Category2 = () => {
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Laptop</p>
-                <Button text="Browser" bgColor={"bg-primary"} textColor={"text-white"} handler={function (): void {
-                  throw new Error("Function not implemented.");
-                } }/>
+                <Button text="Browser" bgColor={"bg-primary"} textColor={"text-white"}/>
               </div>
             </div>
             <img src={Gaming} className="w-[290px] absolute top-1/2 -translate-y-1/2 -right-0"/>
@@ -30,9 +27,7 @@ const Category2 = () => {
                 <p className="mb-[2px] text-gray-400">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-20 mb-2">Gaming</p>
-                <Button text="Browser" bgColor={"bg-white"} textColor={"text-branchGreen"} handler={function (): void {
-                  throw new Error("Function not implemented.");
-                } }/>
+                <Button text="Browser" bgColor={"bg-white"} textColor={"text-branchGreen"}/>
               </div>
             </div>
             <img src={Vr} className="w-[250px] absolute bottom-0"/>
@@ -44,9 +39,7 @@ const Category2 = () => {
                 <p className="mb-[2px] text-white">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Gadget</p>
-                <Button text="Browser" bgColor={"bg-white"} textColor={"text-branchBlue"} handler={function (): void {
-                  throw new Error("Function not implemented.");
-                } }/>
+                <Button text="Browser" bgColor={"bg-white"} textColor={"text-branchBlue"}/>
               </div>
             </div>
             <img src={Speaker} className="w-[200px] absolute bottom-0 right-0"/>
